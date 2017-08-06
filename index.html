@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/font-mfizz.css">
 </head>
 
 <body>
@@ -18,9 +20,9 @@
         </div>
         <div>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a  href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a  href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -35,13 +37,14 @@
             <!-- *** ABOUT ME SECTION IS HERE *** -->
             <div class="flex-about">
                 <div class="about about-img">
-                    <img  src="assets/images/blackWhite.jpg" alt="">
+                    <img  src="assets/images/beach.jpg" alt="">
                 </div>
                 <div id="about-para" class="about about-paragraph">
                     <p>
                         I'm a Web <span>Developer</span> based in Atlanta GA. I strive to make products that are both aesthetically
                         pleasing and functional. I strive to create apps that <span>empower</span> users to be more productive.
-                        My areas of <span>focus</span> are Javascript, NodeJS, React, HTML & CSS. By day I code and by night I code. Thinkful.
+                        My areas of <span>focus</span> are Javascript, NodeJS, React, HTML & CSS. <br><br> When not coding I'm keeping up with
+                        the latest in technology.
 
                     </p>
                 </div>
@@ -51,12 +54,9 @@
         </div>
 
 
-
-
-
         <!-- **** PROJECT SECTION**** -->
         <div>
-            <h1 class="header"><a name="projects"></a>PROJECTS</h1>
+            <h1 class="header projects"><a name="projects"></a>PROJECTS</h1>
             <hr>
             <!-- **** PROJECT CARDS ARE HERE ****  -->
             <div class="flex-projects">
@@ -67,10 +67,19 @@
                         
                     </div>
                     <div class="work-info">
-                            <h3>PICTURE ESQUE</h3>
-                            <p>Description</p>
-                            <button class="btn btn-primary">Live</button>
-                            <button class="btn btn-primary">Code</button>
+                            <h3><span>PICTURE ESQUE</span></h3>
+                            <p>Photo Sharing Application that follows the CRUD method and has a <br> RESTful API.
+                                Users are also able to comment on other users posts. <br><br>
+                                <i class="ion-social-html5"></i>
+                                <i class="ion-social-css3"></i>
+                                <i class="ion-social-javascript"></i>
+                                <i class="ion-social-nodejs"></i>
+                                
+                                <!-- Tech Used: <em>HTML5, CSS3, Javascript, Node, Express, Passport <br> MongoDB, EJS</em> -->
+
+                            </p>
+                            <a target="_blank" class="btn btn-primary" href="https://github.com/naeroled/picture_esque">Live</a>
+                            <a target="_blank" class="btn btn-primary" href="https://github.com/naeroled/picture_esque">Code</a>
                             
                         </div>
                 </div>
@@ -79,8 +88,15 @@
 
                         <img class="work-img grow" src="assets/images/spoiledveggies2.png" alt="">
                         <div class="work-info">
-                            <h3>SPOILED VEGGIES</h3>
-                            <p>Description</p>
+                            <h3><span>SPOILED VEGGIES</span></h3>
+                            <p>RESTful Movie Review blog that links to Fandango and IMDB. <br> Once authenticated
+                                a user can add, edit and delete posts.<br><br>
+                                <i class="ion-social-html5"></i>
+                                <i class="ion-social-css3"></i>
+                                <i class="ion-social-javascript"></i>
+                                <i class="ion-social-nodejs"></i>
+                                <!-- Tech Used: <em>HTML5, CSS3, Semantic UI, Javascript, Node, Express <br> Passport, MongoDB</em> -->
+                            </p>
                             <a target="_blank" class="btn btn-primary" href="https://spoiledveggies.herokuapp.com/">Live</a>
                             <a target="_blank" class="btn btn-primary" href="https://github.com/naeroled/spoiledVeggies">Code</a>
                             
@@ -94,8 +110,14 @@
 
                         <img class="work-img grow" src="assets/images/geowiki2.png" alt="">
                         <div class="work-info">
-                            <h3>GEOWIKI</h3>
-                            <p>Description</p>
+                            <h3><span>GEOWIKI</span></h3>
+                            <p> Educational application utilizing the GeoIP API in order to return <br> Wikipedia articles based on the users geographical location.<br><br>
+                                <i class="ion-social-html5"></i>
+                                <i class="ion-social-css3"></i>
+                                <i class="ion-social-javascript"></i>
+                        
+                                </p>
+
                             <a target="_blank" class="btn btn-primary" href="https://naeroled.github.io/GeoWiki/">Live</a>
                             <a target="_blank" class="btn btn-primary" href="https://github.com/naeroled/GeoWiki">Code</a>
                             
@@ -108,12 +130,18 @@
         </div>
 
         <!-- *** CONTACT SECTION *** -->
-        <div>
-            <h1 class="header">CONTACT</h1>
+        <div class="contact">
+            <h1 class="header"><a name="contact"></a>CONTACT</h1>
             <hr>
-            <h4>EMAIL: <a href="londonbaker4@gmail.com">londonbaker4@gmail.com</a></h4>
-            <h4>GITHUB: <a href="">londonbaker4@gmail.com</a></h4>
-            <h4>LINKEDIN: <a href="https://www.linkedin.com/in/london-baker-536270147/">London Baker</a></h4>
+            <a target="_blank" href="mailto:londonbaker4@gmail.com">
+               <i class="ion-email"></i>
+            </a>
+            <a target="_blank" href="https://github.com/naeroled">
+               <i class="ion-social-github"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/london-baker-536270147/">
+               <i class="ion-social-linkedin"></i>
+            </a>
         </div>
 
         <!-- *** FOOTER SECTION *** -->
@@ -131,6 +159,7 @@
         </footer>
         <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
+        <!-- <script src="assets/js/portPage.js"></script> -->
         <script>
             src = "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"
         </script>
