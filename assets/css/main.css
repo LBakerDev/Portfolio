@@ -124,8 +124,8 @@ hr{
  #about-para {
     margin: -1em 2em;
     height: 240px;
-    font-size: 1.2em;
-    font-family: merriweather;
+    font-size: 1.1em;
+    font-family: raleway;
     line-height: 145%;
     letter-spacing: 0.05em;
     text-align: left;
@@ -266,13 +266,21 @@ span{
 
 @media only screen and (max-width: 808px)  {
     .projects{
-        margin-top: 10em;
+        margin-top: 12em;
     }
     #about-para{
         margin-top: 0em;
     }
 }
 
+/* @media only screen and (max-width: 600px) {
+    
+       grow:hover{
+
+        display: none;
+       }
+    
+}  */
 @media only screen and (max-width: 477px) {
     .jumbotron{
         padding: 0em !important;
@@ -281,7 +289,7 @@ span{
 
 @media only screen and (max-width: 400px) {
     .projects{
-        margin-top:15em;
+        margin-top:20em;
     }
 
 }
