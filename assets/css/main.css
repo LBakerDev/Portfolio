@@ -175,10 +175,6 @@ hr{
     color: #424242
 }
 
-h4{
-    
-}
-
 .btn-primary{
     background: #2196f3 !important
 }
@@ -198,6 +194,13 @@ h4{
 }
 
 .three{
+    /* background: green; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+
+.four{
     /* background: green; */
     flex-grow: 1;
     flex-shrink: 1;
@@ -253,13 +256,20 @@ span{
 }
 
  @media only screen and (max-width: 1598px) {
-    .three{
+    .three, .four{
         margin-top: 6em;
     }
 } 
 
+/* styling for fourth item @ 1598px */
+  @media only screen and (min-width: 1598px) and (max-width: 2123px) {
+    .four{
+        margin-top: 6em;
+    }
+}  
+
 @media only screen and (min-width: 1025px) and (max-width: 1040px) {
-    .two{
+    .two, .four{
         margin-top: 6em;
     }
 }
@@ -295,7 +305,7 @@ span{
 }
 
 @media only screen and (max-width: 1024px) {
-    .two, .three{
+    .two, .three, .four{
         margin-top:12em;
     }
 }
